@@ -53,4 +53,4 @@ map('state', region = states, add = TRUE)
 
 ## Save plot
 }
-suppressWarnings(plotTypes(mapfx, 'BasinMap', 'Figures'))
+suppressWarnings(plotTypes(mapfx, 'BasinMap', 'Figures', c('pdf', 'png')))
